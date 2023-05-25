@@ -18,7 +18,7 @@ class POStagger:
         sentence_tag_tuples = nltk.pos_tag(sentence)
         tagged_sentence = []
         for word, tag in sentence_tag_tuples:
-            if word.lower() in ["personx", "persony", "personz"]:
+            if word.lower() in ["personx", "persony", "personz", "personx's", "persony's", "personz's"]:
                 tagged_sentence.append(word + "/" + "IND")
             else:
                 tagged_sentence.append(word + "/" + tag)

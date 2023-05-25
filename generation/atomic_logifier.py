@@ -92,7 +92,7 @@ class AtomicLogifier:
 
         for word, tag in tagged_tupes:
             word = word.lower()
-            if tag in ["IND", "DT", "CC"]:
+            if tag in ["IND", "DT", "CC", "PRP", "PRP$"]:
                 if verb_atom_done and current_atom:
                     # finish current concept and create new one
                     atoms.append(
