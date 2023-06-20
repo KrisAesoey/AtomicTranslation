@@ -1,4 +1,4 @@
-# Rule learing of the Atomic dataset using Transformers
+# Rule Learning as Machine Translation using the Atomic Knowledge Bank
 
 This is the offical repository for my master's thesis exploring the possiblities of using the Transformer architecture as a method of performing neural machine learning translation from natural language to logical formulas. The experiments are performed on datasets from the literature (marked as DKET), and the Atomic knowledge bank.
 
